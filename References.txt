@@ -1,0 +1,11 @@
+References:
+
+https://docs.python.org/2/library/xml.etree.elementtree.html
+https://docs.python.org/2/library/re.html
+http://wiki.openstreetmap.org/wiki/Main_Page
+https://www.loc.gov/standards/iso639-2/php/code_list.php
+https://www.openstreetmap.org/export#map=5/26.136/79.497
+http://wiki.openstreetmap.org/wiki/Overpass_API
+http://overpass-api.de/query_form.html
+https://gist.github.com/swwelch/f1144229848b407e0a5d13fcb7fbbd6f
+https://gist.github.com/carlward/54ec1c91b62a5f911c42#file-sample_project-md
