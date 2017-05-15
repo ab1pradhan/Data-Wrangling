@@ -15,20 +15,20 @@ Sample osm file created using sampler.py
 To get a dictionary with the tags as key and number of times the tags can be
 encountered in the map as value I have used iterative parsing to process the 
 map file. It is important to get the feeling of how much data can be expected
-to have in the map. The following is the output :
-member   : 42581                    meta   : 1 
-nd       : 2479830                  node   : 2172781
-note     : 1                        osm    : 1  
-relation : 947                      remark : 1 
-tag      : 374482                   way    : 168695 
+to have in the map.The tag names with their counts are 
+member   : 42581,                    meta   : 1, 
+nd       : 2479830,                 node   : 2172781,
+note     : 1,                        osm    : 1,  
+relation : 947,                    remark : 1, 
+tag      : 374482,                  way    : 168695 
 #### 2. tag_types.py
 I have used regular expression to classify the ‘k’ attributes of each tag
-and see if there are any potential problems. Here I have used 3 regular
+and see if there are ny potential problems. Here I have used 3 regular
 expressions and by using them tags are classified in 4 categories which
 are lowercase, lowercase with colon, problematic charaters and others and 
-the output is the count of tags in each group:
-lower : 364509                   lower_colon : 9525 
-other : 448                      problemchar : 0
+the output is the count of tags in each group are
+lower : 364509,                   lower_colon : 9525, 
+other : 448,                      problemchar : 0
 #### 3. sampler.py
 I have used this code to take a systematic sample of elements from the 
 original osm. It extracts the kth  top level element . The size of the
